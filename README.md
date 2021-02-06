@@ -31,7 +31,5 @@
 ### 8. Security branch
 ![](srcs/security_b.png)
 
-Projects can be viewed here 
--> (https://github.com/Kwevan/42_Subjects_2020_with_versioning/blob/master/Others/holy_graph.png)
 
-Images credit: https://github.com/psprawka Thanks :)
+Images credit: https://github.com/psprawka && http://github.com/Kwevan Thanks :)
