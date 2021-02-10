@@ -6,7 +6,7 @@
 /*   By: dodoTheHacker <dodendaa@student.wethink    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/10 18:20:27 by dodoTheHack       #+#    #+#             */
-/*   Updated: 2021/02/10 18:31:06 by dodoTheHack      ###   ########.fr       */
+/*   Updated: 2021/02/10 19:39:02 by dodoTheHack      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,12 +22,9 @@ void    ft_putstr(char *str)
 {
     int index;
 
-    index = 0;
-    while(str[index])
-    {
+    index = -1;
+    while(str[++index])
         ft_putchar(str[index]);
-        index++;
-    }
 }
 
 void    aff_first_param(int argc, char **argv)
