@@ -6,7 +6,7 @@
 /*   By: dodoTheHacker <dodendaa@student.wethink    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/10 18:00:04 by dodoTheHack       #+#    #+#             */
-/*   Updated: 2021/02/10 18:13:24 by dodoTheHack      ###   ########.fr       */
+/*   Updated: 2021/02/10 18:17:06 by dodoTheHack      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@ void ft_putchar(char c)
 void aff_a(int argc, char **argv)
 {
     int index;
-    
     index = 0;
 
     if (argc != 2)
