@@ -6,7 +6,7 @@
 /*   By: dodoTheHacker <dodendaa@student.wethink    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/10 18:20:27 by dodoTheHack       #+#    #+#             */
-/*   Updated: 2021/02/10 19:39:02 by dodoTheHack      ###   ########.fr       */
+/*   Updated: 2021/02/11 07:25:43 by dodoTheHack      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,21 @@ void    ft_putstr(char *str)
     while(str[++index])
         ft_putchar(str[index]);
 }
+
+
+/*
+ * Function:  aff_first_param
+ * --------------------
+ * displays the first argument passed in followed by a newline
+ * 
+ *  returns: void,  aff_first_param displays the first argument passed in followed by a newline 
+ *  apon successfully finding an argument.  If no argument is passed in then only a newline is displayed
+ *    
+ *    
+ *           
+*/
+
+
 
 void    aff_first_param(int argc, char **argv)
 {

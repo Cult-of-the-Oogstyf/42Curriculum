@@ -6,7 +6,7 @@
 /*   By: dodoTheHacker <dodendaa@student.wethink    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/10 21:29:08 by dodoTheHack       #+#    #+#             */
-/*   Updated: 2021/02/10 22:11:47 by dodoTheHack      ###   ########.fr       */
+/*   Updated: 2021/02/11 07:29:33 by dodoTheHack      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,19 @@ int check_even(int number)
         return (0);
     return number % 2 == 0;
 }
+
+
+
+/*
+ * Function:  maff_alpha 
+ * --------------------
+ * displays alphabet with odd characters in lowercase and even characters in uppercase
+ * 
+ *  returns: void,  maff_alpha displays the alphabet with odd characters in lowercase and even characters in uppercase followed by a newline
+ *          
+ *           
+*/
+
 
 void maff_alpha(void)
 {

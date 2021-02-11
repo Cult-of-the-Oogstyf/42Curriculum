@@ -6,7 +6,7 @@
 /*   By: dodoTheHacker <dodendaa@student.wethink    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/10 20:53:08 by dodoTheHack       #+#    #+#             */
-/*   Updated: 2021/02/10 21:13:01 by dodoTheHack      ###   ########.fr       */
+/*   Updated: 2021/02/11 07:26:59 by dodoTheHack      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,17 @@ void ft_putnbr(int number)
     else
         ft_putchar(number + '0');
 }
+
+
+/*
+ * Function:  ft_countdown 
+ * --------------------
+ * displays all digits in decending order
+ * 
+ *  returns: void,  ft_countdown prints displays all digits in decending order followed by a newline
+ *          
+ *           
+*/
 
 void ft_countdown(void)
 {

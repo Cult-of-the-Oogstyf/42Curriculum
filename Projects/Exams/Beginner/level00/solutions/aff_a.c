@@ -6,7 +6,7 @@
 /*   By: dodoTheHacker <dodendaa@student.wethink    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/10 18:00:04 by dodoTheHack       #+#    #+#             */
-/*   Updated: 2021/02/10 18:17:06 by dodoTheHack      ###   ########.fr       */
+/*   Updated: 2021/02/11 07:25:37 by dodoTheHack      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,17 @@ void ft_putchar(char c)
 {
     write(1, &c, 1);
 }
+
+/*
+ * Function:  aff_a
+ * --------------------
+ * displays the first 'a' character it encounters in it
+ * 
+ *  returns: void,  aff_z prints 'a' followed by a newline on successfully finding 
+ *           the char 'a' in a given string. If 'a' does not exist in the given string 
+ *           only a newline character is printed
+ *           
+*/
 
 void aff_a(int argc, char **argv)
 {

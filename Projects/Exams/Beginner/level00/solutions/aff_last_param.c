@@ -6,7 +6,7 @@
 /*   By: dodoTheHacker <dodendaa@student.wethink    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/10 19:34:30 by dodoTheHack       #+#    #+#             */
-/*   Updated: 2021/02/10 19:43:38 by dodoTheHack      ###   ########.fr       */
+/*   Updated: 2021/02/11 07:25:49 by dodoTheHack      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,19 @@ void    ft_putstr(char *str)
     while (str[++index])
         ft_putchar(str[index]);
 }
+
+
+/*
+ * Function:  aff_last_param
+ * --------------------
+ * displays the last argument passed in followed by a newline
+ * 
+ *  returns: void,  aff_last_param displays the last argument passed in followed by a newline 
+ *  apon successfully finding arguments.  If no arguments are passed in then only a newline is displayed
+ *    
+ *    
+ *           
+*/
 
 void    aff_last_param(int argc, char **argv)
 {
