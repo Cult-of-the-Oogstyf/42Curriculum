@@ -6,13 +6,13 @@
 /*   By: dchappie <dchappie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/11 02:35:02 by dchappie          #+#    #+#             */
-/*   Updated: 2021/02/11 02:53:09 by dchappie         ###   ########.fr       */
+/*   Updated: 2021/02/11 02:58:11 by dchappie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char    *ft_strcpy(char *s1, char *s2)
 {
-    int index = 1;
+    int index = -1;
 
     while (s1[++index])
         s2[index] = s1[index];
