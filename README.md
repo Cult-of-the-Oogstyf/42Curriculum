@@ -32,4 +32,4 @@
 ![](srcs/security_b.png)
 
 
-Images credit: https://github.com/psprawka && http://github.com/Kwevan Thanks :)
+Images credit: https://github.com/psprawka && http://github.com/Kwevan Thanks :).
