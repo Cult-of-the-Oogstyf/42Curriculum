@@ -6,7 +6,7 @@
 /*   By: dodoTheHacker <dodendaa@student.wethink    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/11 08:40:25 by dodoTheHack       #+#    #+#             */
-/*   Updated: 2021/02/11 09:12:12 by dodoTheHack      ###   ########.fr       */
+/*   Updated: 2021/02/11 09:19:06 by dodoTheHack      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ void  ft_putchar(char c)
  * 
  *  parameters: c is the character in the alphabet that we are searching for
  * 
- *  returns: characters alphabet index(int)
+ *  returns: characters alphabet index(int),  if char was not found then 0 is returned 
  *    
  *           
 */
